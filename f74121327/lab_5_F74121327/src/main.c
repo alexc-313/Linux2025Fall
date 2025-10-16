@@ -3,9 +3,9 @@
 #include "../include/reverse.h"
 int main()
 {
-const char *src = "F74121327";
-char *dst = malloc(10);
-dst = reverse(dst, src);
-printf("%s", dst);
-return 0;
+    const char *src = "F74121327";
+    char *dst = malloc(10);
+    dst = reverse(dst, src);
+    printf("%s\n", dst);
+    return 0;
 }
